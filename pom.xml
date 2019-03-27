@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+
+49. xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+50. xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+51. <modelVersion>4.0.0</modelVersion>
+
+52. <groupId>org.example</groupId>
+
+53. <artifactId>messageUtil</artifactId>
+
+54. <version>1.0</version>
+
+55. <packaging>jar</packaging>
+
+56. <name>Message Utility Java Sample App</name>
+
+57. <dependencies>
+
+58. <dependency>
+
+59. <groupId>junit</groupId>
+
+60. <artifactId>junit</artifactId>
+
+61. <version>4.11</version>
+
+62. <scope>test</scope>
+
+63. </dependency>
+
+64. </dependencies>
+
+</project>
