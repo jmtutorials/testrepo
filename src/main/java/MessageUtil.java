@@ -1,35 +1,35 @@
 public class MessageUtil {
 
-9. private String message;
+private String message;
 
-10.
 
-11. public MessageUtil(String message) {
 
-12. this.message = message;
+public MessageUtil(String message) {
 
-13. }
+this.message = message;
 
-14.
+ }
 
-15. public String printMessage() {
 
-16. System.out.println(message);
 
-17. return message;
+ public String printMessage() {
 
-18. }
+ System.out.println(message);
 
-19.
+ return message;
 
-20. public String salutationMessage() {
+ }
 
-21. message = "Hi!" + message;
 
-22. System.out.println(message);
 
-23. return message;
+ public String salutationMessage() {
 
-24. }
+ message = "Hi!" + message;
+
+ System.out.println(message);
+
+ return message;
+
+}
 
 }

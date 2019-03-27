@@ -1,43 +1,43 @@
 import org.junit.Test;
 
-27. import org.junit.Ignore;
+ import org.junit.Ignore;
 
-28. import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
 
-29.
 
-30. public class TestMessageUtil {
 
-31.
+public class TestMessageUtil {
 
-32. String message = "Robert";
 
-33. MessageUtil messageUtil = new MessageUtil(message);
 
-34.
+ String message = "Robert";
 
-35. @Test
+MessageUtil messageUtil = new MessageUtil(message);
 
-36. public void testPrintMessage() {
 
-37. System.out.println("Inside testPrintMessage()");
 
-38. assertEquals(message,messageUtil.printMessage());
+ @Test
 
-39. }
+ public void testPrintMessage() {
 
-40.
+ System.out.println("Inside testPrintMessage()");
 
-41. @Test
+assertEquals(message,messageUtil.printMessage());
 
-42. public void testSalutationMessage() {
+}
 
-43. System.out.println("Inside testSalutationMessage()");
 
-44. message = "Hi!" + "Robert";
 
-45. assertEquals(message,messageUtil.salutationMessage());
+@Test
 
-46. }
+public void testSalutationMessage() {
+
+System.out.println("Inside testSalutationMessage()");
+
+ message = "Hi!" + "Robert";
+
+ assertEquals(message,messageUtil.salutationMessage());
+
+ }
 
 }
