@@ -1,35 +1,35 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 
-49. xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 
-50. xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-51. <modelVersion>4.0.0</modelVersion>
+<modelVersion>4.0.0</modelVersion>
 
-52. <groupId>org.example</groupId>
+<groupId>org.example</groupId>
 
-53. <artifactId>messageUtil</artifactId>
+<artifactId>messageUtil</artifactId>
 
-54. <version>1.0</version>
+<version>1.0</version>
 
-55. <packaging>jar</packaging>
+<packaging>jar</packaging>
 
-56. <name>Message Utility Java Sample App</name>
+<name>Message Utility Java Sample App</name>
 
-57. <dependencies>
+<dependencies>
 
-58. <dependency>
+<dependency>
 
-59. <groupId>junit</groupId>
+<groupId>junit</groupId>
 
-60. <artifactId>junit</artifactId>
+<artifactId>junit</artifactId>
 
-61. <version>4.11</version>
+<version>4.11</version>
 
-62. <scope>test</scope>
+<scope>test</scope>
 
-63. </dependency>
+</dependency>
 
-64. </dependencies>
+</dependencies>
 
 </project>
